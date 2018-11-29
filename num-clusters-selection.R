@@ -39,6 +39,7 @@ districts6 <- bind_cols(ky_summary, cmeans6$cluster %>% as.character() %>%
 ky_house %>% left_join(districts6 %>% select(DISTRICT, Cluster)) %>% 
   ggplot(aes(fill = factor(Cluster))) +
   geom_sf() +
+  coord_sf(datum = NA) +
   theme_void() +
   labs(title = 'KY House - City Lab Project',
        subtitle = 'Six Clusters')
@@ -66,6 +67,7 @@ districts4 <- bind_cols(ky_summary, cmeans4$cluster %>% as.character() %>%
 ky_house %>% left_join(districts4 %>% select(DISTRICT, cluster_number)) %>% 
   ggplot(aes(fill = cluster_number)) +
   geom_sf() +
+  coord_sf(datum = NA) +
   theme_void() +
   labs(title = 'KY House - City Lab Project',
        subtitle = 'Four Clusters')
@@ -94,6 +96,7 @@ districts5 <- bind_cols(ky_summary, cmeans5$cluster %>% as.character() %>%
 ky_house %>% left_join(districts5 %>% select(DISTRICT, cluster_number)) %>% 
   ggplot(aes(fill = cluster_number)) +
   geom_sf() +
+  coord_sf(datum = NA) +
   theme_void() +
   labs(title = 'KY House - City Lab Project',
        subtitle = 'Five Clusters')
