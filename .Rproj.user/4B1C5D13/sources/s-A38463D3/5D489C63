@@ -1,0 +1,33 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543509492518.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "5D489C63",
+    "lastKnownWriteTime" : 8246223293474941986,
+    "last_content_update" : 1543509492518,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "C53A8762",
+        "caption" : "districts3",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=districts3&cache_key=C53A8762",
+        "displayedObservations" : 100,
+        "environment" : "",
+        "expression" : "districts3",
+        "object" : "districts3",
+        "preview" : 0,
+        "totalObservations" : 100,
+        "variables" : 9
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

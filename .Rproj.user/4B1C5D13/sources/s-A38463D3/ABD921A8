@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543508041450.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "ABD921A8",
+    "lastKnownWriteTime" : 1543509857,
+    "last_content_update" : 1543509879405,
+    "path" : "//splashserver1/Folder Redirection/rkahne/Documents/robert_kahne/ky-house-clustering/create-clusters.R",
+    "project_path" : "create-clusters.R",
+    "properties" : {
+        "cursorPosition" : "91,0",
+        "scrollLine" : "85",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
