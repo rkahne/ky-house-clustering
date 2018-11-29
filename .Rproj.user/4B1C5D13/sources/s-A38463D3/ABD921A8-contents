@@ -98,6 +98,7 @@ districts3 <- bind_cols(ky_summary, cmeans3$cluster %>% as.character() %>%
 # ky_house %>% left_join(districts3 %>% select(DISTRICT, Cluster)) %>%
 #   ggplot(aes(fill = Cluster)) +
 #   geom_sf() +
+#   coord_sf(datum = NA) +
 #   theme_void() +
 #   labs(title = 'KY House - City Lab Project',
 #        subtitle = 'Three Clusters')
