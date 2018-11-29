@@ -67,15 +67,6 @@ ky_summary <- ky_demog %>%
 
 write_csv(ky_summary, 'data/district-summary.csv')
 
-## The original City Lab project included 6 clusters and named them based on descriptions they created.
-## That number of clusters and the descriptions City Lab did for the US Congressional Districts didn't really work for KY.
-## I've determined that the best number of clusters for KY is 3.  The clusters themselves also follow a bit different logic.
-## City Lab was mostly concerned with the urban/suburban/rural divide.
-## In KY the divided seemed to be more along the lines of urban/rural/suburban OR small city.
-## For example, the Owensboro and Bowling Green districts are tagged as urban, 
-## but the districts that include Ashland, Paducah, Richmond, etc, are 
-
-
 # THREE CLUSTERS was selected as most appropriate for Kentucky (See Readme)
 # The algorithm used is the same as the one selected by City Lab.
 cmeans3 <- cmeans(ky_summary %>% select(2:5) %>% as.matrix(), # Select just the population percentage columns
